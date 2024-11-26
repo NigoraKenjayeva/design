@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-[#000000] text-white  fixed top-0 left-0 w-full  ">
+        <div class="flex justify-between items-center bg-transparent container max-w-[1250px] mx-auto px-10">
+            <div class="text-lg font-bold">MyLogo</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-gray-300">Home</a>
+                <a href="#" class="hover:text-gray-300">About</a>
+                <a href="#" class="hover:text-gray-300">Services</a>
+                <a href="#" class="hover:text-gray-300">Contact</a>
+            </div>
+            <button id="menu-toggle" class="md:hidden text-2xl focus:outline-none">
+                ☰
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden flex flex-col space-y-2 px-4 pb-4 bg-[#514e4e] bg-transparent container max-w-[1250px] mx-auto ">
+            <a href="#" class="hover:text-gray-300">Home</a>
+            <a href="#" class="hover:text-gray-300">About</a>
+            <a href="#" class="hover:text-gray-300">Services</a>
+            <a href="#" class="hover:text-gray-300">Contact</a>
+        </div>
+    </nav>
+    <header class="pt-20 bg-[#000000] text-white ">
+        <div class="bg-transparent container max-w-[1250px] mx-auto">
+            <div class="pb-8">
+                <p class="text-6xl text-center font-semibold">Our Services</p>
+            </div>
+            <div class="md:flex md:gap-3 flex-wrap  ">
+                <img class="md:w-[300px] md:h-[350px] w-[350px] pl-10 pb-7" src="/assets/ffff.jpg" alt="dowland">
+                <img class="md:w-[300px] md:h-[350px] w-[350px] pl-10 pb-7 "  src="/assets/jjjjjjjjjjj.jpg" alt="dowland">
+                <img class="md:w-[300px] md:h-[350px] w-[350px] pl-10 pb-7"  src="/assets/kjjkk.jpg" alt="dowland">
+                <img class="md:w-[300px] md:h-[350px] w-[350px] pl-10 pb-7"  src="/assets/888.jpg" alt="dowland">
+            </div>
+            <div class="md:flex md:gap-3 flex-wrap">
+                <img class="md:w-[300px] md:h-[350px] w-[350px] pl-10 pb-7"  src="/assets/barber.jpg" alt="dowland">
+                <img class="md:w-[300px] md:h-[350px] w-[350px] pl-10 pb-7"  src="/assets/qw.jpg" alt="dowland">
+                <img class="md:w-[300px] md:h-[350px] w-[350px] pl-10 pb-7"  src="/assets/54634.jpg" alt="dowland">
+                <img class="md:w-[300px] md:h-[350px] w-[350px] pl-10 pb-7"  src="/assets/e213.jpg" alt="dowland">
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="bg-[#333333]">
+            <div class="bg-transparent container max-w-[1250px] mx-auto text-center px-10 py-10">
+                <p class="text-white"><a class="text-[#96C4EF]" href="#">Website Mockup </a>created with <a class="text-[#96C4EF]" href="#">WYSIWYG HTML Editor.</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
